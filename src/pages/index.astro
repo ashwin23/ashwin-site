@@ -4,6 +4,7 @@ const year = new Date().getFullYear();
 
 const linkedin = "https://www.linkedin.com/in/ashwinshankar23/";
 const github = "https://github.com/ashwin23/";
+const email = "mailto:hello@ashwinshankar.com";
 ---
 
 <!doctype html>
@@ -11,10 +12,12 @@ const github = "https://github.com/ashwin23/";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta
       name="description"
       content="Ashwin Shankar — Data Science Leader working at the intersection of applied AI, experimentation, and product growth."
     />
+
     <title>Ashwin Shankar | Data Science & Applied AI</title>
   </head>
 
@@ -23,24 +26,39 @@ const github = "https://github.com/ashwin23/";
 
       <!-- NAVIGATION -->
       <header>
-        <a class="logo" href="/">
+        <a class="logo" href="#top">
           Ashwin Shankar<span class="accent">.</span>
         </a>
 
         <nav aria-label="Main navigation">
           <a href="#work">Work</a>
+          <a href="#projects">Projects</a>
           <a href="#writing">Writing</a>
           <a href="#about">About</a>
-          <a href={linkedin} target="_blank" rel="noopener noreferrer">
+
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn ↗
           </a>
-          <a href={github} target="_blank" rel="noopener noreferrer">
+
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GitHub ↗
+          </a>
+
+          <a class="contact-link" href={email}>
+            Contact ↗
           </a>
         </nav>
       </header>
 
-      <main>
+      <main id="top">
 
         <!-- HERO -->
         <section class="hero">
@@ -51,12 +69,14 @@ const github = "https://github.com/ashwin23/";
 
           <h1>
             From data to decisions.<br />
-            <span class="accent">From ideas to systems.</span>
+            <span class="accent">
+              From ideas to systems.
+            </span>
           </h1>
 
           <p class="hero-description">
-            I'm Ashwin — a data science leader working at the
-            intersection of artificial intelligence,
+            I'm Ashwin — a data science leader working at
+            the intersection of artificial intelligence,
             experimentation, and product growth.
           </p>
 
@@ -70,20 +90,29 @@ const github = "https://github.com/ashwin23/";
             <a class="primary-button" href="#work">
               Explore my work ↗
             </a>
+
             <a class="secondary-button" href="#about">
               More about me
             </a>
           </div>
         </section>
 
-        <!-- WORK -->
+        <!-- SELECTED FOCUS -->
         <section id="work" class="section">
+
           <div class="section-heading">
-            <span class="section-number">01 / SELECTED FOCUS</span>
-            <h2>What I work on<span class="accent">.</span></h2>
+            <span class="section-number">
+              01 / SELECTED FOCUS
+            </span>
+
+            <h2>
+              What I work on<span class="accent">.</span>
+            </h2>
+
             <p>
-              Exploring the intersection of scientific thinking,
-              intelligent systems, and business impact.
+              Exploring the intersection of scientific
+              thinking, intelligent systems, and business
+              impact.
             </p>
           </div>
 
@@ -91,7 +120,10 @@ const github = "https://github.com/ashwin23/";
 
             <article class="card">
               <span class="card-icon">↗</span>
-              <span class="card-category">PRODUCT SCIENCE</span>
+
+              <span class="card-category">
+                PRODUCT SCIENCE
+              </span>
 
               <h3>Growth & Experimentation</h3>
 
@@ -109,7 +141,10 @@ const github = "https://github.com/ashwin23/";
 
             <article class="card">
               <span class="card-icon">✳</span>
-              <span class="card-category">APPLIED AI</span>
+
+              <span class="card-category">
+                APPLIED AI
+              </span>
 
               <h3>AI Systems & Engineering</h3>
 
@@ -126,15 +161,18 @@ const github = "https://github.com/ashwin23/";
 
             <article class="card">
               <span class="card-icon">◎</span>
-              <span class="card-category">LEADERSHIP</span>
+
+              <span class="card-category">
+                LEADERSHIP
+              </span>
 
               <h3>Building Teams & Products</h3>
 
               <p>
-                Leading technical teams, connecting data science
-                to product strategy, and building environments
-                where rigorous thinking creates meaningful
-                business outcomes.
+                Leading technical teams, connecting data
+                science to product strategy, and building
+                environments where rigorous thinking
+                creates meaningful business outcomes.
               </p>
 
               <span class="card-footer">
@@ -147,23 +185,37 @@ const github = "https://github.com/ashwin23/";
 
         <!-- PROJECTS -->
         <section id="projects" class="section">
+
           <div class="section-heading">
-            <span class="section-number">02 / THE LAB</span>
-            <h2>Projects<span class="accent">.</span></h2>
+            <span class="section-number">
+              02 / THE LAB
+            </span>
+
+            <h2>
+              Projects<span class="accent">.</span>
+            </h2>
+
             <p>
-              Experiments, prototypes, and systems I'm building
-              as I deepen my work in applied AI.
+              Experiments, prototypes, and systems I'm
+              building as I deepen my work in applied AI.
             </p>
           </div>
 
           <div class="feature-block">
             <div>
-              <span class="card-category">WORK IN PROGRESS</span>
-              <h3>Something interesting is taking shape.</h3>
+              <span class="card-category">
+                WORK IN PROGRESS
+              </span>
+
+              <h3>
+                Something interesting is taking shape.
+              </h3>
+
               <p>
-                I'm developing hands-on AI engineering projects
-                focused on practical applications, evaluation,
-                reliability, and real-world usefulness.
+                I'm developing hands-on AI engineering
+                projects focused on practical applications,
+                evaluation, reliability, and real-world
+                usefulness.
               </p>
             </div>
 
@@ -180,23 +232,33 @@ const github = "https://github.com/ashwin23/";
 
         <!-- WRITING -->
         <section id="writing" class="section">
+
           <div class="section-heading">
-            <span class="section-number">03 / IDEAS & NOTES</span>
-            <h2>Writing<span class="accent">.</span></h2>
+            <span class="section-number">
+              03 / IDEAS & NOTES
+            </span>
+
+            <h2>
+              Writing<span class="accent">.</span>
+            </h2>
+
             <p>
-              Thoughts on artificial intelligence, product
-              strategy, experimentation, and the questions
-              worth asking.
+              Thoughts on artificial intelligence,
+              product strategy, experimentation,
+              and the questions worth asking.
             </p>
           </div>
 
           <div class="empty-state">
             <span>NOTES FROM THE FIELD</span>
+
             <h3>More than just answers.</h3>
+
             <p>
-              I'm interested in the ideas that challenge how
-              we think about technology, organizations,
+              I'm interested in the ideas that challenge
+              how we think about technology, organizations,
               and the future of intelligent systems.
+
               Articles and technical explorations will
               appear here.
             </p>
@@ -205,14 +267,22 @@ const github = "https://github.com/ashwin23/";
 
         <!-- SPEAKING -->
         <section id="speaking" class="section">
+
           <div class="section-heading">
-            <span class="section-number">04 / CONVERSATIONS</span>
-            <h2>Speaking<span class="accent">.</span></h2>
+            <span class="section-number">
+              04 / CONVERSATIONS
+            </span>
+
+            <h2>
+              Speaking<span class="accent">.</span>
+            </h2>
           </div>
 
           <p class="section-copy">
             I enjoy conversations about data science,
-            experimentation, AI, and building better products.
+            experimentation, AI, and building better
+            products.
+
             This space will feature conference talks,
             presentations, and professional discussions.
           </p>
@@ -220,9 +290,15 @@ const github = "https://github.com/ashwin23/";
 
         <!-- ABOUT -->
         <section id="about" class="section about-section">
+
           <div>
-            <span class="section-number">05 / A LITTLE ABOUT ME</span>
-            <h2>Curious by nature<span class="accent">.</span></h2>
+            <span class="section-number">
+              05 / A LITTLE ABOUT ME
+            </span>
+
+            <h2>
+              Curious by nature<span class="accent">.</span>
+            </h2>
           </div>
 
           <div class="about-copy">
@@ -236,6 +312,7 @@ const github = "https://github.com/ashwin23/";
             <p>
               My background combines statistical thinking,
               commercial strategy, and technical leadership.
+
               I'm increasingly interested in building
               intelligent applications and understanding
               what makes AI systems genuinely useful.
@@ -248,10 +325,19 @@ const github = "https://github.com/ashwin23/";
             </p>
 
             <div class="about-links">
-              <a href={linkedin} target="_blank" rel="noopener noreferrer">
+              <a
+                href={linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Connect on LinkedIn ↗
               </a>
-              <a href={github} target="_blank" rel="noopener noreferrer">
+
+              <a
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Explore GitHub ↗
               </a>
             </div>
@@ -263,20 +349,31 @@ const github = "https://github.com/ashwin23/";
       <!-- FOOTER -->
       <footer>
         <div>
-          <a class="footer-logo" href="/">
+          <a class="footer-logo" href="#top">
             Ashwin Shankar<span class="accent">.</span>
           </a>
+
           <p>Built with curiosity. © {year}</p>
         </div>
 
         <div class="footer-links">
-          <a href={linkedin} target="_blank" rel="noopener noreferrer">
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn ↗
           </a>
-          <a href={github} target="_blank" rel="noopener noreferrer">
+
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GitHub ↗
           </a>
-          <a href="mailto:hello@ashwinshankar.com">
+
+          <a href={email}>
             Email ↗
           </a>
         </div>
@@ -330,9 +427,9 @@ const github = "https://github.com/ashwin23/";
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
     padding: 32px 0;
     border-bottom: 1px solid #30363d;
-    gap: 24px;
   }
 
   .logo,
@@ -346,8 +443,8 @@ const github = "https://github.com/ashwin23/";
   nav {
     display: flex;
     align-items: center;
-    gap: 26px;
     flex-wrap: wrap;
+    gap: 24px;
   }
 
   nav a {
@@ -357,28 +454,42 @@ const github = "https://github.com/ashwin23/";
     transition: color 0.2s ease;
   }
 
-  nav a:hover,
-  .footer-links a:hover,
-  .about-links a:hover {
+  nav a:hover {
     color: #b392f0;
+  }
+
+  nav a.contact-link {
+    color: #b392f0;
+    font-weight: 700;
+  }
+
+  nav a.contact-link:hover {
+    color: #d2b7ff;
   }
 
   /* HERO */
 
   .hero {
-    padding: 140px 0 155px;
     max-width: 1000px;
+    padding: 140px 0 155px;
+
+    background: radial-gradient(
+      ellipse at 75% 25%,
+      rgba(163, 113, 247, 0.10),
+      transparent 65%
+    );
   }
 
   .eyebrow {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-bottom: 34px;
+
     color: #b392f0;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 2.2px;
-    margin-bottom: 34px;
   }
 
   .dot {
@@ -390,33 +501,33 @@ const github = "https://github.com/ashwin23/";
   }
 
   h1 {
+    margin: 0 0 35px;
     font-size: clamp(48px, 6.2vw, 88px);
     line-height: 1.09;
     letter-spacing: -4px;
     font-weight: 750;
-    margin: 0 0 35px;
   }
 
   .hero-description {
-    font-size: clamp(19px, 2.1vw, 24px);
-    line-height: 1.65;
-    color: #e6edf3;
     max-width: 710px;
     margin-bottom: 18px;
+    color: #e6edf3;
+    font-size: clamp(19px, 2.1vw, 24px);
+    line-height: 1.65;
   }
 
   .hero-secondary {
-    font-size: 16px;
-    line-height: 1.85;
     max-width: 650px;
     color: #a4aec0;
+    font-size: 16px;
+    line-height: 1.85;
   }
 
   .hero-actions {
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     margin-top: 42px;
-    flex-wrap: wrap;
   }
 
   .primary-button,
@@ -425,15 +536,18 @@ const github = "https://github.com/ashwin23/";
     align-items: center;
     justify-content: center;
     padding: 15px 23px;
-    font-weight: 650;
-    font-size: 14px;
     border-radius: 6px;
-    transition: transform 0.2s ease, background 0.2s ease;
+    font-size: 14px;
+    font-weight: 650;
+    transition:
+      transform 0.2s ease,
+      background 0.2s ease;
   }
 
   .primary-button {
     color: #0d1117;
     background: #b392f0;
+    box-shadow: 0 8px 32px rgba(163, 113, 247, 0.16);
   }
 
   .primary-button:hover {
@@ -453,8 +567,8 @@ const github = "https://github.com/ashwin23/";
   /* SECTIONS */
 
   .section {
-    border-top: 1px solid #30363d;
     padding: 85px 0 105px;
+    border-top: 1px solid #30363d;
     scroll-margin-top: 35px;
   }
 
@@ -472,17 +586,17 @@ const github = "https://github.com/ashwin23/";
   }
 
   h2 {
-    font-size: clamp(36px, 4vw, 52px);
-    letter-spacing: -1.8px;
     margin: 18px 0;
+    font-size: clamp(36px, 4vw, 52px);
     line-height: 1.12;
+    letter-spacing: -1.8px;
   }
 
   .section-heading p,
   .section-copy {
     color: #a4aec0;
-    line-height: 1.85;
     font-size: 17px;
+    line-height: 1.85;
   }
 
   /* CARDS */
@@ -494,39 +608,45 @@ const github = "https://github.com/ashwin23/";
   }
 
   .card {
+    display: flex;
+    flex-direction: column;
+    min-height: 330px;
+    padding: 30px;
+
     background: #161b22;
     border: 1px solid #30363d;
     border-radius: 12px;
-    padding: 30px;
-    min-height: 330px;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.25s ease, border-color 0.25s ease;
+
+    transition:
+      transform 0.25s ease,
+      border-color 0.25s ease,
+      box-shadow 0.25s ease;
   }
 
   .card:hover {
     transform: translateY(-4px);
     border-color: #8957e5;
+    box-shadow: 0 12px 40px rgba(137, 87, 229, 0.10);
   }
 
   .card-icon {
     display: block;
+    margin-bottom: 32px;
     color: #b392f0;
     font-size: 30px;
-    margin-bottom: 32px;
   }
 
   .card h3 {
+    margin: 16px 0;
     font-size: 22px;
     letter-spacing: -0.7px;
-    margin: 16px 0;
   }
 
   .card p {
-    color: #a4aec0;
-    line-height: 1.75;
-    font-size: 14px;
     margin-bottom: 28px;
+    color: #a4aec0;
+    font-size: 14px;
+    line-height: 1.75;
   }
 
   .card-footer {
@@ -537,29 +657,30 @@ const github = "https://github.com/ashwin23/";
     font-size: 12px;
   }
 
-  /* FEATURE BLOCK */
+  /* PROJECTS */
 
   .feature-block {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     gap: 40px;
+
+    padding: 42px;
     background: #161b22;
     border: 1px solid #30363d;
     border-radius: 12px;
-    padding: 42px;
   }
 
   .feature-block h3 {
+    margin: 18px 0;
     font-size: 27px;
     letter-spacing: -0.7px;
-    margin: 18px 0;
   }
 
   .feature-block p {
+    max-width: 620px;
     color: #a4aec0;
     line-height: 1.8;
-    max-width: 620px;
   }
 
   .text-link {
@@ -577,20 +698,20 @@ const github = "https://github.com/ashwin23/";
 
   .empty-state {
     padding: 45px;
-    border-left: 2px solid #b392f0;
     background: #161b22;
+    border-left: 2px solid #b392f0;
   }
 
   .empty-state span {
-    font-size: 11px;
     color: #b392f0;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
   }
 
   .empty-state h3 {
-    font-size: 26px;
     margin: 20px 0;
+    font-size: 26px;
   }
 
   .empty-state p {
@@ -608,10 +729,10 @@ const github = "https://github.com/ashwin23/";
   }
 
   .about-copy p {
-    font-size: 16px;
-    color: #a4aec0;
-    line-height: 1.95;
     margin: 0 0 22px;
+    color: #a4aec0;
+    font-size: 16px;
+    line-height: 1.95;
   }
 
   .about-links {
@@ -627,21 +748,25 @@ const github = "https://github.com/ashwin23/";
     font-weight: 650;
   }
 
+  .about-links a:hover {
+    color: #b392f0;
+  }
+
   /* FOOTER */
 
   footer {
-    border-top: 1px solid #30363d;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
     padding: 45px 0 65px;
+    border-top: 1px solid #30363d;
   }
 
   footer p {
+    margin-top: 12px;
     color: #8b949e;
     font-size: 12px;
-    margin-top: 12px;
   }
 
   .footer-links {
@@ -655,7 +780,11 @@ const github = "https://github.com/ashwin23/";
     font-size: 13px;
   }
 
-  /* MOBILE */
+  .footer-links a:hover {
+    color: #b392f0;
+  }
+
+  /* TABLET */
 
   @media (max-width: 900px) {
     .card-grid {
@@ -672,6 +801,8 @@ const github = "https://github.com/ashwin23/";
       flex-direction: column;
     }
   }
+
+  /* MOBILE */
 
   @media (max-width: 650px) {
     .container {
@@ -744,22 +875,4 @@ const github = "https://github.com/ashwin23/";
       transition: none;
     }
   }
-
-  /* Purple theme enhancements */
-  .hero {
-    background: radial-gradient(
-      ellipse at 75% 25%,
-      rgba(163, 113, 247, 0.10),
-      transparent 65%
-    );
-  }
-
-  .primary-button {
-    box-shadow: 0 8px 32px rgba(163, 113, 247, 0.16);
-  }
-
-  .card:hover {
-    box-shadow: 0 12px 40px rgba(137, 87, 229, 0.10);
-  }
-
 </style>
