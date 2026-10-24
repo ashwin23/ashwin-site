@@ -1,105 +1,765 @@
 
+---
+const year = new Date().getFullYear();
+
+const linkedin = "https://www.linkedin.com/in/ashwinshankar23/";
+const github = "https://github.com/ashwin23/";
+---
+
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ashwin Shankar — Data Science Leader working at the intersection of applied AI, experimentation, and product growth."
+    />
     <title>Ashwin Shankar | Data Science & Applied AI</title>
   </head>
+
   <body>
-    <main>
-      <p class="eyebrow">ASHWIN SHANKAR</p>
+    <div class="container">
 
-      <h1>Building intelligent systems that matter.</h1>
+      <!-- NAVIGATION -->
+      <header>
+        <a class="logo" href="/">
+          Ashwin Shankar<span class="accent">.</span>
+        </a>
 
-      <p class="intro">
-        Data science leader exploring the intersection
-        of applied AI, engineering, experimentation,
-        and product growth.
-      </p>
+        <nav aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#writing">Writing</a>
+          <a href="#about">About</a>
+          <a href={linkedin} target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+          <a href={github} target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+        </nav>
+      </header>
 
-      <nav>
-        <a href="#projects">Projects</a>
-        <a href="#writing">Writing</a>
-        <a href="#speaking">Speaking</a>
-      </nav>
+      <main>
 
-      <section id="projects">
-        <h2>Selected Projects</h2>
-        <p>New AI engineering projects coming soon.</p>
-      </section>
+        <!-- HERO -->
+        <section class="hero">
+          <div class="eyebrow">
+            <span class="dot"></span>
+            DATA SCIENCE / APPLIED AI / ENGINEERING
+          </div>
 
-      <section id="writing">
-        <h2>Writing</h2>
-        <p>Ideas, experiments, and technical deep dives.</p>
-      </section>
+          <h1>
+            From data to decisions.<br />
+            <span class="accent">From ideas to systems.</span>
+          </h1>
 
-      <section id="speaking">
-        <h2>Speaking</h2>
-        <p>Conference talks and professional discussions.</p>
-      </section>
-    </main>
+          <p class="hero-description">
+            I'm Ashwin — a data science leader working at the
+            intersection of artificial intelligence,
+            experimentation, and product growth.
+          </p>
+
+          <p class="hero-secondary">
+            I lead teams that turn complex problems into
+            measurable outcomes, while exploring how AI
+            changes the way we build and improve products.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-button" href="#work">
+              Explore my work ↗
+            </a>
+            <a class="secondary-button" href="#about">
+              More about me
+            </a>
+          </div>
+        </section>
+
+        <!-- WORK -->
+        <section id="work" class="section">
+          <div class="section-heading">
+            <span class="section-number">01 / SELECTED FOCUS</span>
+            <h2>What I work on<span class="accent">.</span></h2>
+            <p>
+              Exploring the intersection of scientific thinking,
+              intelligent systems, and business impact.
+            </p>
+          </div>
+
+          <div class="card-grid">
+
+            <article class="card">
+              <span class="card-icon">↗</span>
+              <span class="card-category">PRODUCT SCIENCE</span>
+
+              <h3>Growth & Experimentation</h3>
+
+              <p>
+                Applying experimentation, causal inference,
+                and statistical modeling to understand user
+                behavior, improve product experiences,
+                and drive sustainable growth.
+              </p>
+
+              <span class="card-footer">
+                Data Science / Strategy
+              </span>
+            </article>
+
+            <article class="card">
+              <span class="card-icon">✳</span>
+              <span class="card-category">APPLIED AI</span>
+
+              <h3>AI Systems & Engineering</h3>
+
+              <p>
+                Exploring agentic workflows, language models,
+                evaluation frameworks, and the engineering
+                principles behind reliable AI applications.
+              </p>
+
+              <span class="card-footer">
+                Engineering / Exploration
+              </span>
+            </article>
+
+            <article class="card">
+              <span class="card-icon">◎</span>
+              <span class="card-category">LEADERSHIP</span>
+
+              <h3>Building Teams & Products</h3>
+
+              <p>
+                Leading technical teams, connecting data science
+                to product strategy, and building environments
+                where rigorous thinking creates meaningful
+                business outcomes.
+              </p>
+
+              <span class="card-footer">
+                Leadership / Product
+              </span>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+          <div class="section-heading">
+            <span class="section-number">02 / THE LAB</span>
+            <h2>Projects<span class="accent">.</span></h2>
+            <p>
+              Experiments, prototypes, and systems I'm building
+              as I deepen my work in applied AI.
+            </p>
+          </div>
+
+          <div class="feature-block">
+            <div>
+              <span class="card-category">WORK IN PROGRESS</span>
+              <h3>Something interesting is taking shape.</h3>
+              <p>
+                I'm developing hands-on AI engineering projects
+                focused on practical applications, evaluation,
+                reliability, and real-world usefulness.
+              </p>
+            </div>
+
+            <a
+              class="text-link"
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Follow my work on GitHub ↗
+            </a>
+          </div>
+        </section>
+
+        <!-- WRITING -->
+        <section id="writing" class="section">
+          <div class="section-heading">
+            <span class="section-number">03 / IDEAS & NOTES</span>
+            <h2>Writing<span class="accent">.</span></h2>
+            <p>
+              Thoughts on artificial intelligence, product
+              strategy, experimentation, and the questions
+              worth asking.
+            </p>
+          </div>
+
+          <div class="empty-state">
+            <span>NOTES FROM THE FIELD</span>
+            <h3>More than just answers.</h3>
+            <p>
+              I'm interested in the ideas that challenge how
+              we think about technology, organizations,
+              and the future of intelligent systems.
+              Articles and technical explorations will
+              appear here.
+            </p>
+          </div>
+        </section>
+
+        <!-- SPEAKING -->
+        <section id="speaking" class="section">
+          <div class="section-heading">
+            <span class="section-number">04 / CONVERSATIONS</span>
+            <h2>Speaking<span class="accent">.</span></h2>
+          </div>
+
+          <p class="section-copy">
+            I enjoy conversations about data science,
+            experimentation, AI, and building better products.
+            This space will feature conference talks,
+            presentations, and professional discussions.
+          </p>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section about-section">
+          <div>
+            <span class="section-number">05 / A LITTLE ABOUT ME</span>
+            <h2>Curious by nature<span class="accent">.</span></h2>
+          </div>
+
+          <div class="about-copy">
+            <p>
+              I'm a Senior Manager of Growth Data Science
+              at Atlassian, where I lead teams working on
+              product growth, experimentation, and
+              data-driven decision making.
+            </p>
+
+            <p>
+              My background combines statistical thinking,
+              commercial strategy, and technical leadership.
+              I'm increasingly interested in building
+              intelligent applications and understanding
+              what makes AI systems genuinely useful.
+            </p>
+
+            <p>
+              Outside technology, you'll probably find me
+              playing tennis or cricket, exploring somewhere
+              new, or hunting for a great cup of coffee.
+            </p>
+
+            <div class="about-links">
+              <a href={linkedin} target="_blank" rel="noopener noreferrer">
+                Connect on LinkedIn ↗
+              </a>
+              <a href={github} target="_blank" rel="noopener noreferrer">
+                Explore GitHub ↗
+              </a>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <div>
+          <a class="footer-logo" href="/">
+            Ashwin Shankar<span class="accent">.</span>
+          </a>
+          <p>Built with curiosity. © {year}</p>
+        </div>
+
+        <div class="footer-links">
+          <a href={linkedin} target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+          <a href={github} target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+          <a href="mailto:hello@ashwinshankar.com">
+            Email ↗
+          </a>
+        </div>
+      </footer>
+
+    </div>
   </body>
 </html>
 
 <style>
+  :global(*) {
+    box-sizing: border-box;
+  }
+
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+
   :global(body) {
     margin: 0;
-    background: #f9f8f5;
-    color: #17212d;
+    background: #0d1117;
+    color: #e6edf3;
     font-family: -apple-system, BlinkMacSystemFont,
-      "Segoe UI", sans-serif;
+      "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
 
-  main {
-    max-width: 850px;
+  :global(::selection) {
+    background: #b392f0;
+    color: #0d1117;
+  }
+
+  .container {
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 110px 24px;
+    padding: 0 42px;
   }
 
-  .eyebrow {
-    color: #526c92;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 3px;
+  .accent {
+    color: #b392f0;
   }
 
-  h1 {
-    font-size: clamp(42px, 7vw, 76px);
-    line-height: 1.08;
-    letter-spacing: -2.5px;
-    max-width: 750px;
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 
-  .intro {
-    font-size: 21px;
-    line-height: 1.7;
-    color: #536071;
-    max-width: 650px;
+  /* NAVIGATION */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    border-bottom: 1px solid #30363d;
+    gap: 24px;
+  }
+
+  .logo,
+  .footer-logo {
+    font-size: 20px;
+    font-weight: 750;
+    letter-spacing: -0.6px;
+    white-space: nowrap;
   }
 
   nav {
     display: flex;
+    align-items: center;
+    gap: 26px;
     flex-wrap: wrap;
-    gap: 28px;
-    margin: 45px 0 100px;
   }
 
-  a {
-    color: #2158a4;
-    text-decoration: none;
-    font-weight: 600;
+  nav a {
+    color: #a4aec0;
+    font-size: 13px;
+    font-weight: 500;
+    transition: color 0.2s ease;
   }
 
-  a:hover {
+  nav a:hover,
+  .footer-links a:hover,
+  .about-links a:hover {
+    color: #b392f0;
+  }
+
+  /* HERO */
+
+  .hero {
+    padding: 140px 0 155px;
+    max-width: 1000px;
+  }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #b392f0;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    margin-bottom: 34px;
+  }
+
+  .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #b392f0;
+  }
+
+  h1 {
+    font-size: clamp(48px, 6.2vw, 88px);
+    line-height: 1.09;
+    letter-spacing: -4px;
+    font-weight: 750;
+    margin: 0 0 35px;
+  }
+
+  .hero-description {
+    font-size: clamp(19px, 2.1vw, 24px);
+    line-height: 1.65;
+    color: #e6edf3;
+    max-width: 710px;
+    margin-bottom: 18px;
+  }
+
+  .hero-secondary {
+    font-size: 16px;
+    line-height: 1.85;
+    max-width: 650px;
+    color: #a4aec0;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 42px;
+    flex-wrap: wrap;
+  }
+
+  .primary-button,
+  .secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 23px;
+    font-weight: 650;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+
+  .primary-button {
+    color: #0d1117;
+    background: #b392f0;
+  }
+
+  .primary-button:hover {
+    background: #d2b7ff;
+    transform: translateY(-2px);
+  }
+
+  .secondary-button {
+    color: #e6edf3;
+    border: 1px solid #484f58;
+  }
+
+  .secondary-button:hover {
+    background: #21262d;
+  }
+
+  /* SECTIONS */
+
+  .section {
+    border-top: 1px solid #30363d;
+    padding: 85px 0 105px;
+    scroll-margin-top: 35px;
+  }
+
+  .section-number,
+  .card-category {
+    color: #b392f0;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+  }
+
+  .section-heading {
+    max-width: 670px;
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-size: clamp(36px, 4vw, 52px);
+    letter-spacing: -1.8px;
+    margin: 18px 0;
+    line-height: 1.12;
+  }
+
+  .section-heading p,
+  .section-copy {
+    color: #a4aec0;
+    line-height: 1.85;
+    font-size: 17px;
+  }
+
+  /* CARDS */
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 30px;
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: #8957e5;
+  }
+
+  .card-icon {
+    display: block;
+    color: #b392f0;
+    font-size: 30px;
+    margin-bottom: 32px;
+  }
+
+  .card h3 {
+    font-size: 22px;
+    letter-spacing: -0.7px;
+    margin: 16px 0;
+  }
+
+  .card p {
+    color: #a4aec0;
+    line-height: 1.75;
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .card-footer {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #30363d;
+    color: #8b949e;
+    font-size: 12px;
+  }
+
+  /* FEATURE BLOCK */
+
+  .feature-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 42px;
+  }
+
+  .feature-block h3 {
+    font-size: 27px;
+    letter-spacing: -0.7px;
+    margin: 18px 0;
+  }
+
+  .feature-block p {
+    color: #a4aec0;
+    line-height: 1.8;
+    max-width: 620px;
+  }
+
+  .text-link {
+    color: #b392f0;
+    font-size: 14px;
+    font-weight: 650;
+    white-space: nowrap;
+  }
+
+  .text-link:hover {
     text-decoration: underline;
   }
 
-  section {
-    padding: 35px 0;
-    border-top: 1px solid #ddd;
+  /* WRITING */
+
+  .empty-state {
+    padding: 45px;
+    border-left: 2px solid #b392f0;
+    background: #161b22;
   }
 
-  section p {
-    color: #536071;
+  .empty-state span {
+    font-size: 11px;
+    color: #b392f0;
+    font-weight: 700;
+    letter-spacing: 2px;
   }
+
+  .empty-state h3 {
+    font-size: 26px;
+    margin: 20px 0;
+  }
+
+  .empty-state p {
+    max-width: 650px;
+    color: #a4aec0;
+    line-height: 1.85;
+  }
+
+  /* ABOUT */
+
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 65px;
+  }
+
+  .about-copy p {
+    font-size: 16px;
+    color: #a4aec0;
+    line-height: 1.95;
+    margin: 0 0 22px;
+  }
+
+  .about-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin-top: 35px;
+  }
+
+  .about-links a {
+    color: #e6edf3;
+    font-size: 14px;
+    font-weight: 650;
+  }
+
+  /* FOOTER */
+
+  footer {
+    border-top: 1px solid #30363d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 45px 0 65px;
+  }
+
+  footer p {
+    color: #8b949e;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .footer-links a {
+    color: #a4aec0;
+    font-size: 13px;
+  }
+
+  /* MOBILE */
+
+  @media (max-width: 900px) {
+    .card-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .about-section {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .feature-block {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .container {
+      padding: 0 22px;
+    }
+
+    header {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 20px;
+      padding: 25px 0;
+    }
+
+    nav {
+      gap: 17px;
+    }
+
+    .hero {
+      padding: 95px 0 105px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 10vw, 60px);
+      letter-spacing: -2px;
+    }
+
+    .eyebrow {
+      font-size: 9px;
+      letter-spacing: 1.2px;
+    }
+
+    .hero-description {
+      font-size: 19px;
+    }
+
+    .section {
+      padding: 65px 0 80px;
+    }
+
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .card {
+      min-height: auto;
+    }
+
+    .feature-block {
+      padding: 27px;
+    }
+
+    .empty-state {
+      padding: 28px;
+    }
+
+    footer {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(html) {
+      scroll-behavior: auto;
+    }
+
+    .card,
+    .primary-button,
+    .secondary-button {
+      transition: none;
+    }
+  }
+
+  /* Purple theme enhancements */
+  .hero {
+    background: radial-gradient(
+      ellipse at 75% 25%,
+      rgba(163, 113, 247, 0.10),
+      transparent 65%
+    );
+  }
+
+  .primary-button {
+    box-shadow: 0 8px 32px rgba(163, 113, 247, 0.16);
+  }
+
+  .card:hover {
+    box-shadow: 0 12px 40px rgba(137, 87, 229, 0.10);
+  }
+
 </style>
